@@ -1,0 +1,5 @@
+pdflatex memoria.tex 
+bibtex memoria.aux
+pdflatex memoria.tex
+pdflatex memoria.tex
+evince memoria.pdf

@@ -1,0 +1,63 @@
+\documentclass[11pt]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[breaklinks]{hyperref}
+\usepackage[spanish]{babel}
+\usepackage{array}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{multirow}
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{setspace} % Espaciado de líneas
+\usepackage{tocloft}
+\usepackage{subfiles} % varios archivos
+\graphicspath{{imagenes/}{../imagenes/}}
+\usepackage[draft,color=gray!50,linecolor=black]{todonotes} % notas \todo[inline]{}
+\theoremstyle{definition}
+\newtheorem{definition}{Definición}[section]
+ \geometry{
+ a4paper,
+ total={210mm,297mm},
+ left=25mm,
+ right=20mm,
+ top=25mm,
+ bottom=20mm,
+ }
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;}
+\pagestyle{headings}
+
+\begin{document}
+
+\include{portada} %portada
+\tableofcontents %índice de contenidos
+\pagebreak
+\listoftables %índice de tablas
+
+\onehalfspace
+\chapter{Introducción}
+
+\subfile{secciones/introduccion}
+
+\chapter{Métodos de Re-ID (\emph{trabajo relacionado})}
+\subfile{secciones/trabajorelacionado}
+
+\chapter{Sistema de Re-ID de personas (\emph{marco teórico})}
+\subfile{secciones/marcoteorico}
+
+%% \section{Modelo Desarrollado}
+%% \subfile{secciones/modelo}
+%% \section{Experimentos y Resultados}
+%% \subfile{secciones/experimentos}
+%% \section{Conclusiones}
+%% \subfile{secciones/conclusiones}
+
+\bibliographystyle{acm}
+\bibliography{bibliografia/bibliografia}
+%\bibliography{bibliografia/intro,bibliografia/marcoteorico,bibliografia/trabajorelacionado,bibliografia/estudios,bibliografia/apariencia,bibliografia/dml}
+\end{document}
