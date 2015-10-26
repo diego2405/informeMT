@@ -2,7 +2,13 @@
 \begin{document}
 \label{marco teorico}
 
-%AGREGAR CONTEXTO
+En este capítulo, se presenta una discución de distintos métodos empleados en un sistema de Re-ID de personas.
+
+Re-ID se define como el proceso de establecer correspondencia entre imágenes de personas tomadas desde cámaras diferentes \cite{bedagkar2014survey}.
+
+%La identificación (descriptor) de una persona detectada es almacenada en una galería. Si el tamaño de la galería evoluciona con el tiempo, se dice que el sistema de Re-ID es de \emph{conjunto abierto}, en caso contrario (galería de tamaño fijo), el sistema es de \emph{conjunto cerrado}.
+
+%Cada vez que se detecta una persona en la escena, su descriptor es consultado con la galería en busca de una correspondencia. Para el caso de galería cerrada, el problema radica en asociar correctamente el descriptor consultado con su \emph{match} correspondiente. En el caso de una galería abierta, primero se debe determinar si la persona existe en la galería (\emph{novelty detection}), agregando el descriptor a la galería en caso de que no exista, o asociándolo su match.
 
 \indent Un sistema típico de Re-ID tiene dos fases \cite{bedagkar2014survey}: (1) captura de descriptores y (2) comparación de descriptores, tal como se muestra en la figura \ref{fig:sistemaReID}. %se puede ver una representación esquemática de un sistema de Re-ID, mostrando las dos fases mencionadas anteriormente y los sub-procesos dentro de cada una.
 

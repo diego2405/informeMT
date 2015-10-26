@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: memoria.aux
+A level-1 auxiliary file: portada.aux
+The style file: acm.bst
+Database file #1: bibliografia/bibliografia.bib
+Warning--empty booktitle in bouma2013real
+You've used 43 entries,
+            2253 wiz_defined-function locations,
+            780 strings with 12381 characters,
+and the built_in function-call counts, 18650 in all, are:
+= -- 1872
+> -- 748
+< -- 0
++ -- 309
+- -- 263
+* -- 1374
+:= -- 2749
+add.period$ -- 139
+call.type$ -- 43
+change.case$ -- 258
+chr.to.int$ -- 0
+cite$ -- 44
+duplicate$ -- 799
+empty$ -- 1563
+format.name$ -- 263
+if$ -- 4143
+int.to.chr$ -- 0
+int.to.str$ -- 43
+missing$ -- 44
+newline$ -- 221
+num.names$ -- 88
+pop$ -- 319
+preamble$ -- 1
+purify$ -- 215
+quote$ -- 0
+skip$ -- 607
+stack$ -- 0
+substring$ -- 1372
+swap$ -- 307
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 170
+warning$ -- 1
+while$ -- 181
+width$ -- 45
+write$ -- 469
+(There was 1 warning)

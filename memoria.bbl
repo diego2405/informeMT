@@ -1,0 +1,270 @@
+\begin{thebibliography}{10}
+
+\bibitem{bak2010person}
+{\sc Bak, S., Corvee, E., Bremond, F., and Thonnat, M.}
+\newblock Person re-identification using haar-based and dcd-based signature.
+\newblock In {\em Advanced Video and Signal Based Surveillance (AVSS), 2010
+  Seventh IEEE International Conference on\/} (Aug 2010), pp.~1--8.
+
+\bibitem{bauml2010multi}
+{\sc Bauml, M., Bernardin, K., Fischer, M., Ekenel, H.~K., and Stiefelhagen,
+  R.}
+\newblock Multi-pose face recognition for person retrieval in camera networks.
+\newblock In {\em Advanced Video and Signal Based Surveillance (AVSS), 2010
+  Seventh IEEE International Conference on\/} (2010), IEEE, pp.~441--447.
+
+\bibitem{bay2006surf}
+{\sc Bay, H., Tuytelaars, T., and Van~Gool, L.}
+\newblock Surf: Speeded up robust features.
+\newblock In {\em Computer vision--ECCV 2006}. Springer, 2006, pp.~404--417.
+
+\bibitem{bedagkar2014survey}
+{\sc Bedagkar-Gala, A., and Shah, S.~K.}
+\newblock A survey of approaches and trends in person re-identification.
+\newblock {\em Image and Vision Computing 32}, 4 (2014), 270--286.
+
+\bibitem{bellet2013survey}
+{\sc Bellet, A., Habrard, A., and Sebban, M.}
+\newblock A survey on metric learning for feature vectors and structured data.
+\newblock {\em arXiv preprint arXiv:1306.6709\/} (2013).
+
+\bibitem{berdugo2010object}
+{\sc Berdugo, G., Soceanu, O., Moshe, Y., Rudoy, D., and Dvir, I.}
+\newblock Object reidentification in real world scenarios across multiple
+  non-overlapping cameras.
+\newblock In {\em Proc. Euro. Sig. Proc. Conf\/} (2010), pp.~1806--1810.
+
+\bibitem{bird2005detection}
+{\sc Bird, N.~D., Masoud, O., Papanikolopoulos, N.~P., and Isaacs, A.}
+\newblock Detection of loitering individuals in public transportation areas.
+\newblock {\em Intelligent Transportation Systems, IEEE Transactions on 6}, 2
+  (2005), 167--177.
+
+\bibitem{bouma2013real}
+{\sc Bouma, H., Baan, J., Landsmeer, S., Kruszynski, C., van Antwerpen, G., and
+  Dijk, J.}
+\newblock Real-time tracking and fast retrieval of persons in multiple
+  surveillance cameras of a shopping mall.
+\newblock vol.~8756, pp.~87560A--13.
+
+\bibitem{bouwmans2008background}
+{\sc Bouwmans, T., El~Baf, F., and Vachon, B.}
+\newblock Background modeling using mixture of gaussians for foreground
+  detection-a survey.
+\newblock {\em Recent Patents on Computer Science 1}, 3 (2008), 219--237.
+
+\bibitem{calderara2008hecol}
+{\sc Calderara, S., Prati, A., and Cucchiara, R.}
+\newblock Hecol: Homography and epipolar-based consistent labeling for outdoor
+  park surveillance.
+\newblock {\em Computer Vision and Image Understanding 111}, 1 (2008), 21 --
+  42.
+\newblock Special Issue on Intelligent Visual Surveillance (IEEE).
+
+\bibitem{canny1986computational}
+{\sc Canny, J.}
+\newblock A computational approach to edge detection.
+\newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions
+  on}, 6 (1986), 679--698.
+
+\bibitem{dalal2005histograms}
+{\sc Dalal, N., and Triggs, B.}
+\newblock Histograms of oriented gradients for human detection.
+\newblock In {\em Computer Vision and Pattern Recognition, 2005. CVPR 2005.
+  IEEE Computer Society Conference on\/} (2005), vol.~1, IEEE, pp.~886--893.
+
+\bibitem{oliveira2009people}
+{\sc de~Oliveira, I.~O., and de~Souza~Pio, J.~L.}
+\newblock People reidentification in a camera network.
+\newblock In {\em Dependable, Autonomic and Secure Computing, 2009. DASC'09.
+  Eighth IEEE International Conference on\/} (2009), IEEE, pp.~461--466.
+
+\bibitem{decann2012can}
+{\sc DeCann, B., and Ross, A.}
+\newblock Can a poor verification system be a good identification system - a
+  preliminary study.
+\newblock In {\em Information Forensics and Security (WIFS), 2012 IEEE
+  International Workshop on\/} (Dec 2012), pp.~31--36.
+
+\bibitem{dikmen2011pedestrian}
+{\sc Dikmen, M., Akbas, E., Huang, T.~S., and Ahuja, N.}
+\newblock Pedestrian recognition with a learned metric.
+\newblock In {\em Computer Vision--ACCV 2010}. Springer, 2011, pp.~501--512.
+
+\bibitem{ellis2003learning}
+{\sc Ellis, T., Makris, D., and Black, J.}
+\newblock Learning a multi-camera topology.
+\newblock In {\em Joint IEEE Workshop on Visual Surveillance and Performance
+  Evaluation of Tracking and Surveillance (VS-PETS)\/} (2003), pp.~165--171.
+
+\bibitem{farenzena2010person}
+{\sc Farenzena, M., Bazzani, L., Perina, A., Murino, V., and Cristani, M.}
+\newblock Person re-identification by symmetry-driven accumulation of local
+  features.
+\newblock In {\em Computer Vision and Pattern Recognition (CVPR), 2010 IEEE
+  Conference on\/} (June 2010), pp.~2360--2367.
+
+\bibitem{gheissari2006person}
+{\sc Gheissari, N., Sebastian, T., and Hartley, R.}
+\newblock Person reidentification using spatiotemporal appearance.
+\newblock In {\em Computer Vision and Pattern Recognition, 2006 IEEE Computer
+  Society Conference on\/} (2006), vol.~2, pp.~1528--1535.
+
+\bibitem{gilbert2006tracking}
+{\sc Gilbert, A., and Bowden, R.}
+\newblock Tracking objects across cameras by incrementally learning
+  inter-camera colour calibration and patterns of activity.
+\newblock In {\em Computer Vision--ECCV 2006}. Springer, 2006, pp.~125--136.
+
+\bibitem{gray2008viewpoint}
+{\sc Gray, D., and Tao, H.}
+\newblock Viewpoint invariant pedestrian recognition with an ensemble of
+  localized features.
+\newblock In {\em Computer Vision--ECCV 2008}. Springer, 2008, pp.~262--275.
+
+\bibitem{hamdoun2008person}
+{\sc Hamdoun, O., Moutarde, F., Stanciulescu, B., and Steux, B.}
+\newblock Person re-identification in multi-camera system by signature based on
+  interest point descriptors collected on short video sequences.
+\newblock In {\em Distributed Smart Cameras, 2008. ICDSC 2008. Second ACM/IEEE
+  International Conference on\/} (2008), IEEE, pp.~1--6.
+
+\bibitem{hirzer2012person}
+{\sc Hirzer, M., Roth, P., and Bischof, H.}
+\newblock Person re-identification by efficient impostor-based metric learning.
+\newblock In {\em Advanced Video and Signal-Based Surveillance (AVSS), 2012
+  IEEE Ninth International Conference on\/} (Sept 2012), pp.~203--208.
+
+\bibitem{hirzer2012relaxed}
+{\sc Hirzer, M., Roth, P., Köstinger, M., and Bischof, H.}
+\newblock Relaxed pairwise learned metric for person re-identification.
+\newblock In {\em Computer Vision – ECCV 2012}, A.~Fitzgibbon, S.~Lazebnik,
+  P.~Perona, Y.~Sato, and C.~Schmid, Eds., vol.~7577 of {\em Lecture Notes in
+  Computer Science}. Springer Berlin Heidelberg, 2012, pp.~780--793.
+
+\bibitem{hu2008people}
+{\sc Hu, L., Jiang, S., Huang, Q., and Gao, W.}
+\newblock People re-detection using adaboost with sift and color correlogram.
+\newblock In {\em Image Processing, 2008. ICIP 2008. 15th IEEE International
+  Conference on\/} (Oct 2008), pp.~1348--1351.
+
+\bibitem{javed2008modeling}
+{\sc Javed, O., Shafique, K., Rasheed, Z., and Shah, M.}
+\newblock Modeling inter-camera space--time and appearance relationships for
+  tracking across non-overlapping views.
+\newblock {\em Computer Vision and Image Understanding 109}, 2 (2008),
+  146--162.
+
+\bibitem{khan2003consistent}
+{\sc Khan, S., and Shah, M.}
+\newblock Consistent labeling of tracked objects in multiple cameras with
+  overlapping fields of view.
+\newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions on
+  25}, 10 (Oct 2003), 1355--1360.
+
+\bibitem{kuo2010inter}
+{\sc Kuo, C.-H., Huang, C., and Nevatia, R.}
+\newblock Inter-camera association of multi-target tracks by on-line learned
+  appearance affinity models.
+\newblock In {\em Computer Vision--ECCV 2010}. Springer, 2010, pp.~383--396.
+
+\bibitem{lin2008learning}
+{\sc Lin, Z., and Davis, L.}
+\newblock Learning pairwise dissimilarity profiles for appearance recognition
+  in visual surveillance.
+\newblock In {\em Advances in Visual Computing}, vol.~5358 of {\em Lecture
+  Notes in Computer Science}. Springer Berlin Heidelberg, 2008, pp.~23--34.
+
+\bibitem{lowe1999object}
+{\sc Lowe, D.~G.}
+\newblock Object recognition from local scale-invariant features.
+\newblock In {\em Computer vision, 1999. The proceedings of the seventh IEEE
+  international conference on\/} (1999), vol.~2, Ieee, pp.~1150--1157.
+
+\bibitem{mazzon2012person}
+{\sc Mazzon, R., Tahir, S.~F., and Cavallaro, A.}
+\newblock Person re-identification in crowd.
+\newblock {\em Pattern Recognition Letters 33}, 14 (2012), 1828--1837.
+
+\bibitem{porikli2003multi}
+{\sc Porikli, F., and Divakaran, A.}
+\newblock Multi-camera calibration, object tracking and query generation.
+\newblock In {\em Multimedia and Expo, 2003. ICME'03. Proceedings. 2003
+  International Conference on\/} (2003), vol.~1, IEEE, pp.~I--653.
+
+\bibitem{prosserxiang2008multi}
+{\sc Prosser, B., Gong, S., and Xiang, T.}
+\newblock Multi-camera matching using bi-directional cumulative brightness
+  transfer functions.
+\newblock In {\em Proceedings of the British Machine Vision Conference\/}
+  (2008), BMVA Press, pp.~64.1--64.10.
+\newblock doi:10.5244/C.22.64.
+
+\bibitem{prosser2010person}
+{\sc Prosser, B., Zheng, W.-S., Gong, S., and Xiang, T.}
+\newblock Person re-identification by support vector ranking.
+\newblock In {\em Proceedings of the British Machine Vision Conference\/}
+  (2010), BMVA Press, pp.~21.1--21.11.
+\newblock doi:10.5244/C.24.21.
+
+\bibitem{stein1999tracking}
+{\sc Stein, G.}
+\newblock Tracking from multiple view points: Self-calibration of space and
+  time.
+\newblock In {\em Computer Vision and Pattern Recognition, 1999. IEEE Computer
+  Society Conference on.\/} (1999), vol.~1, pp.~--527.
+
+\bibitem{stockman2001computervision}
+{\sc Stockman, G., and Shapiro, L.~G.}
+\newblock {\em Computer Vision}, 1st~ed.
+\newblock Prentice Hall PTR, Upper Saddle River, NJ, USA, 2001.
+
+\bibitem{teixeira2009video}
+{\sc Teixeira, L.~F., and Corte-Real, L.}
+\newblock Video object matching across multiple independent views using local
+  descriptors and adaptive learning.
+\newblock {\em Pattern Recognition Letters 30}, 2 (2009), 157--167.
+
+\bibitem{vezzani2013people}
+{\sc Vezzani, R., Baltieri, D., and Cucchiara, R.}
+\newblock People reidentification in surveillance and forensics: A survey.
+\newblock {\em ACM Comput. Surv. 46}, 2 (Dec. 2013), 29:1--29:37.
+
+\bibitem{wang2007shape}
+{\sc Wang, X., Doretto, G., Sebastian, T., Rittscher, J., and Tu, P.}
+\newblock Shape and appearance context modeling.
+\newblock In {\em Computer Vision, 2007. ICCV 2007. IEEE 11th International
+  Conference on\/} (Oct 2007), pp.~1--8.
+
+\bibitem{weinberger2008fast}
+{\sc Weinberger, K.~Q., and Saul, L.~K.}
+\newblock Fast solvers and efficient implementations for distance metric
+  learning.
+\newblock In {\em Proceedings of the 25th international conference on Machine
+  learning\/} (2008), ACM, pp.~1160--1167.
+
+\bibitem{weinberger2009dml}
+{\sc Weinberger, K.~Q., and Saul, L.~K.}
+\newblock Distance metric learning for large margin nearest neighbor
+  classification.
+\newblock {\em J. Mach. Learn. Res. 10\/} (June 2009), 207--244.
+
+\bibitem{yilmaz2006object}
+{\sc Yilmaz, A., Javed, O., and Shah, M.}
+\newblock Object tracking: A survey.
+\newblock {\em ACM Comput. Surv. 38}, 4 (Dec. 2006).
+
+\bibitem{zheng2011person}
+{\sc Zheng, W.-S., Gong, S., and Xiang, T.}
+\newblock Person re-identification by probabilistic relative distance
+  comparison.
+\newblock In {\em Computer Vision and Pattern Recognition (CVPR), 2011 IEEE
+  Conference on\/} (2011), IEEE, pp.~649--656.
+
+\bibitem{zheng2013reidentification}
+{\sc Zheng, W.-S., Gong, S., and Xiang, T.}
+\newblock Reidentification by relative distance comparison.
+\newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions on
+  35}, 3 (2013), 653--668.
+
+\end{thebibliography}
