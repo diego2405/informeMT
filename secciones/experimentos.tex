@@ -2,5 +2,149 @@
 
 \begin{document}
 \label{experimentos}
+\SetKwFunction{open}{abrir}
+\SetKwFunction{tsc}{tieneSiguienteCuadro}
+\SetKwFunction{osc}{obtenerSiguienteCuadro}
+\SetKwFunction{ag}{actualizarGaleria}
+\SetKwFunction{detect}{detectarPersona}
+\SetKwFunction{reid}{reidentificar}
+\SetKwFunction{isAlm}{esAlmacenamiento}
+\SetKwFunction{isBus}{esBusqueda}
+\SetKwFunction{segmentar}{segmentar}
+\SetKwFunction{eliminarRuido}{eliminarRuido}
+\SetKwFunction{eliminarSombra}{eliminarSombra}
+\SetKwFunction{detectarContornos}{detectarContornos}
+\SetKwFunction{aproxPol}{aproximarContornos}
+\SetKwFunction{aproxRec}{rectanguloContenedor}
+\SetKwFunction{seleccionarMax}{seleccionarRegionMaxima}
+\SetKwFunction{detectAndCompute}{detector.detectAndCompute}
+\SetKwFunction{siftCreate}{SIFT\_create}
+\SetKwFunction{crearPersona}{crearPersona}
+\SetKwFunction{esRGB}{esRGB}
+\SetKwFunction{esHSV}{esHSV}
+\SetKwFunction{cvtColor}{cvtColor}
+%\SetKwFunction{}{}
+
+Las pruebas presentadas en este capítulo tienen como objetivo determinar los parámetros de configuración del prototipo, comparar los resultados con los obtenidos por un sistema de Re-ID por votación, y evaluar la efectividad del prototipo usando reglas simples (tamaño y relación de aspecto) para discriminar movimientos detectados en videos de vigilancia reales. 
+
+\section{Implementación}
+
+La implementación del prototipo utilizó la librería de visión computacional de código libre OpenCV 3.0 \cite{bradski2000opencv} utilizando PYTHON 2.7.
+
+El prototipo desarrollado consiste en la implementación de un algortimo de Re-ID basado en la arquitectura de la figura \ref{fig:sistemaReID}. 
+
+\begin{algorithm}[h]
+\DontPrintSemicolon
+\KwIn{galeria, estado, videos}
+\KwOut{galeria, reidentificaciones}
+\nl \ForEach{v en videos}{
+	\nl $stream$ = \open{v}\;
+	\nl \While{\tsc{stream}}{
+		\nl $frame$ = \osc{stream}\;
+		\nl $persona$ = \detect{frame}\;
+		\nl \If{\isAlm{estado}}{
+			\nl $galeria$ = \ag{persona}\;
+		}
+		\nl \ElseIf{\isBus{estado}}{
+			\nl $reidentificaciones$ = \reid{galeria,persona}\;
+		}
+	}
+}
+\caption{Lectura videos} \label{lectura videos}
+\end{algorithm}
+
+\begin{algorithm}[h]
+\DontPrintSemicolon
+\KwIn{frame, proporcionAltoAncho, areaMinima, areaMaxima, espacioColores}
+\KwOut{persona}
+\nl $grises$ = \segmentar{frame}\;
+\nl $sinRuido$ = \eliminarRuido{grises}\;
+\nl $sinSombra$ = \eliminarSombra{sinRuido,umbralSombra}\;
+\nl $puntos$ = \detectarContornos{sinSombra}\;
+\nl $poligonos$ = \aproxPol{puntos}\;
+\nl $rectangulos$ = \aproxRec{poligonos}\;
+\nl $region$ = \seleccionarMax{rectangulos,proporcionAltoAncho,areaMinima, areaMaxima}\;
+\nl $detector$ =  \siftCreate{}\;
+\nl \If{\esRGB{espacioColores}}{
+	\nl $[keypoints, descriptor]$ = \detectAndCompute{region}\;
+}
+\nl \ElseIf{\esHSV{espacioColores}}{
+	\nl $region$ = \cvtColor{region,COLOR\_BGR2HSV}\;
+	\nl $[keypoints, descriptor]$ = \detectAndCompute{region}\;
+}
+\nl $persona$ = \crearPersona{keypoints, descriptor, region}
+\caption{\texttt detectarPersona()} \label{detectar persona}
+\end{algorithm}
+
+\begin{algorithm}[h]
+\DontPrintSemicolon
+\KwIn{galeria, persona}
+\KwOut{reidentificaciones}
+\caption{reidentificar} \label{reidentificar}
+\end{algorithm}
+% Las estapas de extraer el descriptor de una persona y comparar descriptores fueron implementadas como dos estados distintos: \emph{almacenamiento} y \emph{búsqueda}, respectivamente.
+%El sistema puede procesar, tanto archivos de video, como flujos de imágenes entregadas por cámaras de video (\emph{live streaming}). La función \texttt{videoCapture()} selecciona la fuente de origen del video. Luego, cada frame del video es procesado con la función \texttt{read()}, la cual debe ser llamada dentro de un ciclo iterativo. En cada iteración se obtiene un nuevo frame sobre el cual se ejecutan las tareas de reidentificación. Debido a que se necesita reidentificar personas presentes en varios archivos de video (dataset CAVIAR), el proceso de lectura se encuentra anidado en otro ciclo que itera una vez para cada archivo dentro de un directorio específico.
+
+\section{Configuración de parámetros}
+
+Rendimiento según espacio de colores utilizado.
+\begin{table}
+	\begin{center}
+		\begin{tabular}{cc}
+			HSV  & RGB  \\
+			\hline
+			XX\% & RGB \\
+			XX\% & HSV \\
+		\end{tabular}  
+	\end{center}
+	\caption{Comparación de resultados obtenidos usando RGB y HSV }
+\label{experimentos RGB y HSV}
+\end{table}
+
+\section{Evaluación efectividad de reidentificación}
+
+\begin{table}
+	\begin{center}
+		\begin{tabular}{cc}
+			Precisión & Número de imágenes por persona  \\
+			\hline
+			XX\% & 1 \\
+			XX\% & 2 \\
+		\end{tabular}  
+	\end{center}
+	\caption{Comparación de resultados obtenidos usando número de imágenes por persona}
+\label{experimentos numero de imagenes por persona}
+\end{table}
+
+\begin{table}
+	\begin{center}
+		\begin{tabular}{cc}
+			Precisión & Número de match utilizados  \\
+			\hline
+			XX\% & 1 \\
+			XX\% & 5 \\
+			XX\% & 10 \\
+			XX\% & 20 \\
+		\end{tabular}  
+	\end{center}
+	\caption{Comparación de resultados obtenidos usando distinto número de match}
+\label{experimentos numero de match}
+\end{table}
+
+\subsection{Uso de reglas de discriminación}
+
+\begin{table}
+	\begin{center}
+		\begin{tabular}{cc}
+			Precisión & Uso de filtro  \\
+			\hline
+			XX\% & SI \\
+			XX\% & NO \\
+		\end{tabular}  
+	\end{center}
+	\caption{Comparación de resultados obtenidos según uso de filtro }
+\label{experimentos uso filtro area}
+\end{table}
+
 
 \end{document}

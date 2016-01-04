@@ -53,6 +53,11 @@
   detection-a survey.
 \newblock {\em Recent Patents on Computer Science 1}, 3 (2008), 219--237.
 
+\bibitem{bradski2000opencv}
+{\sc Bradski, G.}
+\newblock The opencv library.
+\newblock {\em Doctor Dobbs Journal 25}, 11 (2000), 120--126.
+
 \bibitem{calderara2008hecol}
 {\sc Calderara, S., Prati, A., and Cucchiara, R.}
 \newblock Hecol: Homography and epipolar-based consistent labeling for outdoor
@@ -90,6 +95,13 @@
 {\sc Dikmen, M., Akbas, E., Huang, T.~S., and Ahuja, N.}
 \newblock Pedestrian recognition with a learned metric.
 \newblock In {\em Computer Vision--ACCV 2010}. Springer, 2011, pp.~501--512.
+
+\bibitem{douglas1973algorithms}
+{\sc Douglas, D.~H., and Peucker, T.~K.}
+\newblock Algorithms for the reduction of the number of points required to
+  represent a digitized line or its caricature.
+\newblock {\em Cartographica: The International Journal for Geographic
+  Information and Geovisualization 10}, 2 (1973), 112--122.
 
 \bibitem{ellis2003learning}
 {\sc Ellis, T., Makris, D., and Black, J.}
@@ -168,12 +180,10 @@
   appearance affinity models.
 \newblock In {\em Computer Vision--ECCV 2010}. Springer, 2010, pp.~383--396.
 
-\bibitem{lin2008learning}
-{\sc Lin, Z., and Davis, L.}
-\newblock Learning pairwise dissimilarity profiles for appearance recognition
-  in visual surveillance.
-\newblock In {\em Advances in Visual Computing}, vol.~5358 of {\em Lecture
-  Notes in Computer Science}. Springer Berlin Heidelberg, 2008, pp.~23--34.
+\bibitem{lowe2004invariant}
+{\sc Lowe, D.}
+\newblock Distinctive image features from scale-invariant keypoints.
+\newblock {\em International Journal of Computer Vision 60}, 2 (2004), 91--110.
 
 \bibitem{lowe1999object}
 {\sc Lowe, D.~G.}
@@ -185,6 +195,11 @@
 {\sc Mazzon, R., Tahir, S.~F., and Cavallaro, A.}
 \newblock Person re-identification in crowd.
 \newblock {\em Pattern Recognition Letters 33}, 14 (2012), 1828--1837.
+
+\bibitem{nakajima2003full}
+{\sc Nakajima, C., Pontil, M., Heisele, B., and Poggio, T.}
+\newblock Full-body person recognition system.
+\newblock {\em Pattern recognition 36}, 9 (2003), 1997--2006.
 
 \bibitem{porikli2003multi}
 {\sc Porikli, F., and Divakaran, A.}
@@ -218,6 +233,13 @@
 {\sc Stockman, G., and Shapiro, L.~G.}
 \newblock {\em Computer Vision}, 1st~ed.
 \newblock Prentice Hall PTR, Upper Saddle River, NJ, USA, 2001.
+
+\bibitem{suzuki1985topological}
+{\sc Suzuki, S., et~al.}
+\newblock Topological structural analysis of digitized binary images by border
+  following.
+\newblock {\em Computer Vision, Graphics, and Image Processing 30}, 1 (1985),
+  32--46.
 
 \bibitem{teixeira2009video}
 {\sc Teixeira, L.~F., and Corte-Real, L.}
@@ -266,5 +288,17 @@
 \newblock Reidentification by relative distance comparison.
 \newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions on
   35}, 3 (2013), 653--668.
+
+\bibitem{zivkovic2004improved}
+{\sc Zivkovic, Z.}
+\newblock Improved adaptive gaussian mixture model for background subtraction.
+\newblock In {\em Pattern Recognition, 2004. ICPR 2004. Proceedings of the 17th
+  International Conference on\/} (2004), vol.~2, IEEE, pp.~28--31.
+
+\bibitem{zivkovic2006efficient}
+{\sc Zivkovic, Z., and van~der Heijden, F.}
+\newblock Efficient adaptive density estimation per image pixel for the task of
+  background subtraction.
+\newblock {\em Pattern recognition letters 27}, 7 (2006), 773--780.
 
 \end{thebibliography}

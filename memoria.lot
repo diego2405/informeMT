@@ -1,7 +1,12 @@
 \select@language {spanish}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Resultados obtenidos en \cite {hu2008people}}}{7}{table.2.1}
-\contentsline {table}{\numberline {2.2}{\ignorespaces Resultados obtenidos en \cite {hamdoun2008person}}}{7}{table.2.2}
-\contentsline {table}{\numberline {2.3}{\ignorespaces Clasificaci\IeC {\'o}n de trabajos en tipos de m\IeC {\'e}todos de Re-ID \cite {mazzon2012person}}}{9}{table.2.3}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Resultados obtenidos en \cite {hu2008people}\relax }}{7}{table.caption.5}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Resultados obtenidos en \cite {hamdoun2008person}\relax }}{8}{table.caption.6}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Clasificaci\IeC {\'o}n de trabajos en tipos de m\IeC {\'e}todos de Re-ID \cite {mazzon2012person}\relax }}{10}{table.caption.8}
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Comparaci\IeC {\'o}n de resultados obtenidos usando RGB y HSV \relax }}{16}{table.caption.16}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Comparaci\IeC {\'o}n de resultados obtenidos usando n\IeC {\'u}mero de im\IeC {\'a}genes por persona\relax }}{17}{table.caption.17}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Comparaci\IeC {\'o}n de resultados obtenidos usando distinto n\IeC {\'u}mero de match\relax }}{17}{table.caption.18}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Comparaci\IeC {\'o}n de resultados obtenidos seg\IeC {\'u}n uso de filtro \relax }}{17}{table.caption.19}

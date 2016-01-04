@@ -10,6 +10,8 @@
 \usepackage{amsthm}
 \usepackage{cite}
 \usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{cleveref}
 \usepackage{geometry}
 \usepackage{multirow}
 \usepackage{url}
@@ -17,8 +19,12 @@
 \usepackage{setspace} % Espaciado de líneas
 \usepackage{tocloft}
 \usepackage{subfiles} % varios archivos
+\usepackage[ruled,vlined,spanish]{algorithm2e} %algoritmo
 \graphicspath{{imagenes/}{../imagenes/}}
 \usepackage[draft,color=gray!50,linecolor=black]{todonotes} % notas \todo[inline]{}
+\captionsetup[subfigure]{subrefformat=simple,labelformat=simple}
+\renewcommand\thesubfigure{(\alph{subfigure})}
+
 \theoremstyle{definition}
 \newtheorem{definition}{Definición}[section]
  \geometry{
@@ -41,21 +47,25 @@
 
 \onehalfspace
 \chapter{Introducción}
-
 \subfile{secciones/introduccion}
 
-\chapter{Métodos de Re-ID (\emph{trabajo relacionado})}
-\subfile{secciones/trabajorelacionado}
+%\chapter{Métodos de Re-ID (\emph{trabajo relacionado})}
+%\subfile{secciones/trabajorelacionado}
 
-\chapter{Sistema de Re-ID de personas (\emph{marco teórico})}
+\chapter{Sistemas de Re-ID}
 \subfile{secciones/marcoteorico}
 
-%% \section{Modelo Desarrollado}
-%% \subfile{secciones/modelo}
-%% \section{Experimentos y Resultados}
-%% \subfile{secciones/experimentos}
-%% \section{Conclusiones}
-%% \subfile{secciones/conclusiones}
+\chapter{Re-ID utilizando puntos de interés} %cambiar título
+\subfile{secciones/modelo}
+
+\chapter{Experimentos y Resultados}
+\subfile{secciones/experimentos}
+
+%\chapter{Conclusiones}
+%\subfile{secciones/conclusiones}
+
+%\chapter*{Apéndice}
+%\subfile{secciones/apendice}
 
 \bibliographystyle{acm}
 \bibliography{bibliografia/bibliografia}
